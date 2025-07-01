@@ -1,3 +1,4 @@
+import { DeleteAccountButton } from "../components/Button/DeleteAccountButton";
 import { ImagePerson } from "../components/Image/ImagePerson";
 import { ProfileInfo } from "../components/Input/ProfileInfo";
 import { TitleProfile } from "../components/Title/TitleProfile";
@@ -41,6 +42,10 @@ export function Profile() {
             value="jjnwewefenwf"
             textColor="text-gray-dark"
           />
+        </div>
+
+        <div className="flex justify-between w-full pt-8">
+          <DeleteAccountButton action="Excluir Conta" />
         </div>
       </div>
     </div>
