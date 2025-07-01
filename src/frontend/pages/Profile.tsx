@@ -1,4 +1,5 @@
 import { DeleteAccountButton } from "../components/Button/DeleteAccountButton";
+import { LogoutButton } from "../components/Button/LogoutButton";
 import { ImagePerson } from "../components/Image/ImagePerson";
 import { ProfileInfo } from "../components/Input/ProfileInfo";
 import { TitleProfile } from "../components/Title/TitleProfile";
@@ -46,6 +47,7 @@ export function Profile() {
 
         <div className="flex justify-between w-full pt-8">
           <DeleteAccountButton action="Excluir Conta" />
+          <LogoutButton action="Encerrar Sessão" />
         </div>
       </div>
     </div>
