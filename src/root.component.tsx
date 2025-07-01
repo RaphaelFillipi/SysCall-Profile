@@ -1,3 +1,10 @@
-export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+import { Profile } from "./frontend/pages/Profile";
+import "./frontend/style/index.css";
+
+export default function Root() {
+  return (
+    <div className="h-screen">
+      <Profile />
+    </div>
+  );
 }
